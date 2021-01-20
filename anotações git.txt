@@ -1,0 +1,26 @@
+git status = verifica o status do repositório LOCAL
+
+git init = inicia o repositório local (roda-se sempre uma vez no inicio do projeto, cria a pasta oculta .git).
+
+git add . = adiciona os arquivos novos ou modificados para o stage
+
+.gitignore = arquivo onde colocamos os arquivos e pasta que não queremos que o git gerencie
+(normalmente não subimos bibliotecas de terceiros e arquivos contendo senhas)
+
+git config --global user.name seunomedeusuario = configura o nome do usuario do github
+
+git config --global user.email seuemail = configura o email do github
+
+git commit -m "Mensagem de commit" = sobe todos os arquivos que estão no stage para o repositório local
+
+git log = mostra o histórico de commits (--oneline abrevia os resultados)
+
+git remote add origin https://endereco-do-seu-repositorio-remoto = adiciona o repositório remoto ao seu projeto
+
+git push origin master = sobe para o repositório remoto todos os commits do repositório local
+
+git checkout iddocommit = aponta o HEAD para o commit passado
+
+
+
+
